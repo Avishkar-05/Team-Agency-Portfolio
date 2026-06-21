@@ -63,14 +63,14 @@ const members = [
 {
     name: "Aditya Dolhare",
     role: "FullStack Developer",
-    image: "images/%20Image_Aditya.jpeg",
+    image: "images/Image_Aditya.jpeg",
     github: "https://github.com/Adityadolhare01"
 },
 
 {
     name: "Abhay Kale",
     role: "Backend Developer",
-    image: "images/%20Image_Abhay.jpeg",
+    image: "images/Image_Abhay.jpeg",
     github: "https://github.com/kaleabhayka-oss"
 },
 
