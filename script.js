@@ -57,21 +57,21 @@ const members = [
     name: "Avishkar Chavan",
     role: "Frontend Developer",
     image: "images/IMG_2158_Avishkar.JPG",
-    github: "https://github.com/"
+    github: "https://github.com/Avishkar-05"
 },
 
 {
     name: "Aditya Dolhare",
     role: "FullStack Developer",
     image: "images/%20Image_Aditya.jpeg",
-    github: "https://github.com/"
+    github: "https://github.com/Adityadolhare01"
 },
 
 {
     name: "Abhay Kale",
     role: "Backend Developer",
     image: "images/%20Image_Abhay.jpeg",
-    github: "https://github.com/"
+    github: "https://github.com/kaleabhayka-oss"
 },
 
 {
