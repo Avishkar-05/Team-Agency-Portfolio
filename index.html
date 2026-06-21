@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Agency Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+            Team Agency
+        </div>
+
+        <nav>
+
+            <a href="#home">Home</a>
+
+            <a href="#team">Team</a>
+
+            <a href="#skills">Skills</a>
+
+            <a href="#projects">Projects</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <button id="themeBtn">
+            🌙
+        </button>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>
+                Welcome to Team Agency
+            </h1>
+
+            <p>
+                We are First Year B.Tech Students passionate about
+                HTML, CSS and JavaScript.
+            </p>
+
+            <a href="#team">
+                <button class="heroBtn">
+                    Meet Our Team
+                </button>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about hidden">
+
+        <h2>About Us</h2>
+
+        <p>
+
+            We are a team of enthusiastic B.Tech students learning
+            modern web development.
+            This portfolio showcases our skills, projects and teamwork
+            using only HTML, CSS and JavaScript.
+
+        </p>
+
+    </section>
+
+    <!-- ================= TEAM ================= -->
+
+    <section id="team" class="hidden">
+
+        <h2 class="title">
+            Meet Our Team
+        </h2>
+
+        <!-- JavaScript will create cards here -->
+
+        <div id="teamContainer">
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="hidden">
+
+        <h2 class="title">
+            Our Skills
+        </h2>
+
+        <div class="skill">
+
+            <p>HTML</p>
+
+            <div class="bar">
+
+                <div class="fill html">
+                    95%
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <p>CSS</p>
+
+            <div class="bar">
+
+                <div class="fill css">
+                    90%
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <p>JavaScript</p>
+
+            <div class="bar">
+
+                <div class="fill js">
+                    85%
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            
+            <div class="bar">
+
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    
+                
+
+        
+    <section id="projects">
+    <div class="section-container">
+ 
+      <div class="section-header">
+        <p class="section-eyebrow">Our Work</p>
+        <h2 class="section-title">Capstone Projects</h2>
+        <p class="section-sub">Six fully functional apps — pure HTML, CSS & JavaScript.</p>
+      </div>
+ 
+      <!--
+        Same idea as team — EMPTY div.
+        JS reads projectsData array and builds cards.
+      -->
+      <div class="projects-grid" id="projectsGrid">
+        <!-- JS will inject cards here -->
+      </div>
+ 
+    </div>
+    <!-- Project showcase cards will go here -->
+  </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="hidden">
+
+        <h2 class="title">
+
+            Contact Us
+
+        </h2>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your Name">
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your Email">
+
+            <textarea
+                id="message"
+                rows="6"
+                placeholder="Enter your Message"></textarea>
+
+            <button type="submit">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+        <p id="error"></p>
+
+    </section>
+
+    <!-- ================= SOCIAL ================= -->
+
+    <section class="social hidden">
+
+        <h2>
+
+            Connect With Us
+
+        </h2>
+
+        <div class="social-icons">
+
+            <a href="https://github.com/Avishkar-05" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Team Agency Portfolio
+
+        </p>
+
+        <p>
+
+            Designed By
+
+            Avishkar Chavan |
+
+            Aditya Dolhare |
+
+            Abhay Kale |
+
+            Shrestha Arya
+
+        </p>
+
+    </footer>
+
+    <!-- ================= BACK TO TOP ================= -->
+
+    <button id="topBtn">
+
+        <i class="fas fa-arrow-up"></i>
+
+    </button>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
