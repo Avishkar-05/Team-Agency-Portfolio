@@ -1,4 +1,4 @@
-# OJT Team Portfolio
+# OJT Team-Agency-Portfolio
 
 A data-driven agency landing page introducing our team and showcasing
 all five capstone projects. Built with vanilla HTML, CSS, and JavaScript
