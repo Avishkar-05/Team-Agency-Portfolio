@@ -4,7 +4,7 @@ const projectsData = [
     name: "Team Agency Portfolio",
     topic: "DOM & Layout",
     desc: "Data-driven landing page with dark/light theme toggle, team profiles and project showcase.",
-    link: "",
+    link: "#",
     developer: "Avishkar Chavan"
   },
   {
@@ -20,7 +20,7 @@ const projectsData = [
     name: "Expense Tracker",
     topic: "CRUD & localStorage",
     desc: "Log income & expenses with full CRUD, computed totals using reduce/filter, data persists.",
-    link: "#",
+    link: "https://cute-stardust-dfd388.netlify.app/",
     developer: "Aditya Dolhare" 
   },
   {
@@ -36,7 +36,7 @@ const projectsData = [
     name: "GitHub Explorer",
     topic: "Multi-Endpoint APIs",
     desc: "Search any GitHub username to view profile, repos, stats and language breakdown chart.",
-    link: "#",
+    link: "https://githubexplorer34.netlify.app/",
     developer: "Abhay Kale" 
   },
   {
